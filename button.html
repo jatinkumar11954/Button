@@ -1,234 +1,233 @@
-<html>
-
-<body>
-  <style>
-    button {
-      background-color: lightgrey;
-      /* Green */
-      border: none;
-      color: light black;
-      padding: 10px 21px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 15px;
-      margin: 2px 2px;
-      -webkit-transition-duration: 0.4s;
-      /* Safari */
-      transition-duration: 0.4s;
-      cursor: pointer;
-    }
-
-    button span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
-    }
-
-    button span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
-    }
-
-    button:hover span {
-      padding-right: 15px;
-    }
-
-    button:hover span:after {
-      opacity: 1;
-      right: 0;
-    }
-
-    .line {
-
-      display: inline-flex;
-      width: 100%;
-      background: transparent;
-      // max-width:560px;
-    }
-
-    button:hover {
-      background-color: blue;
-      color: white;
-    }
-
-    .active {
-      background-color: blue;
-      color: white;
-    }
-
-    .routeimg img {
-      /* margin-left: 10%; */
-      /* margin-top:4%; */
-
-      width: 90%;
-      display: inline-block;
-      vertical-align: top;
-      position: relative;
-      z-index: 20;
-      text-align: left;
-      background: #fff;
-
-    }
-
-    .content {
-      display: inline-block;
-      /* vertical-align: top; */
-      position: relative;
-      z-index: 10;
-      margin: 0;
-      margin-left: 4%;
-      margin-right: 5%;
-      padding: 0;
-      width: 18%;
-      min-width: 170px;
-      list-style: none;
-    }
-
-    @media (max-width: 568px) {
-      .content {
-        margin-right: 0% !important;
-        margin-left: 0% !important;
-        min-width: 160px !important;
-      }
-
+<p>
+  <html>
+  
+  <body>
+    <style>
       button {
-        padding: 9px 18px !important;
-
+        background-color: lightgrey;
+        /* Green */
+        border: none;
+        color: light black;
+        padding: 10px 21px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 2px 2px;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
       }
-    }
-  </style>
-  <div class="line">
-    <div class="content" id="goto">
-      <button class="active" id="bb1" style="padding-right:24px;" href="#goto"><span>Route No.1</span></button>
-      <button id="bb2" href="#goto"><span>Route No.2</span></button>
-      <button id="bb3" href="#goto"><span>Route No.3</span></button>
-      <button id="bb4" href="#goto"><span>Route No.4</span></button>
-      <button id="bb5" href="#goto"><span>Route No.5</span></button>
-      <button id="bb6" href="#goto"><span>Route No.6</span></button>
-      <button style="padding-right:24px;" id="bb7" href="#goto"><span>Route No.7</span></button>
-      <button id="bb8" href="#goto"><span>Route No.8</span></button>
-      <button id="bb9" href="#goto"><span>Route No.9</span></button>
-      <button style="padding-left:18px;" id="bb10" href="#goto"><span>Route No.10</span></button>
-      <button style="padding-right:22px;" id="bb11" href="#goto"><span>Route No.11</span></button>
-      <button style="padding-right:18px;" id="bb12" href="#goto"><span>Route No.12</span></button>
+  
+      button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+  
+      button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+  
+      button:hover span {
+        padding-right: 15px;
+      }
+  
+      button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+  
+      .line {
+  
+        display: inline-flex;
+        width: 100%;
+        background: transparent;
+        // max-width:560px;
+      }
+  
+      button:hover {
+        background-color: blue;
+        color: white;
+      }
+  
+     
+      .routeimg img {
+        /* margin-left: 10%; */
+        /* margin-top:4%; */
+  
+        width: 90%;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        z-index: 20;
+        text-align: left;
+        background: #fff;
+  
+      }
+  
+      .content {
+        display: inline-block;
+        /* vertical-align: top; */
+        position: relative;
+        z-index: 10;
+        margin: 0;
+        margin-left: 4%;
+        margin-right: 5%;
+        padding: 0;
+        width: 18%;
+        min-width: 170px;
+        list-style: none;
+      }
+  
+      @media (max-width: 568px) {
+        .content {
+          margin-right: 0% !important;
+          margin-left: 0% !important;
+          min-width: 160px !important;
+        }
+  
+        button {
+          padding: 9px 18px !important;
+  
+        }
+      }
+    </style>
+    <div class="line">
+      <div class="content" id="goto">
+        <button  id="bb1" style="padding-right:24px;" href="#goto"><span>Route No.1</span></button>
+        <button id="bb2" href="#goto"><span>Route No.2</span></button>
+        <button id="bb3" href="#goto"><span>Route No.3</span></button>
+        <button id="bb4" href="#goto"><span>Route No.4</span></button>
+        <button id="bb5" href="#goto"><span>Route No.5</span></button>
+        <button id="bb6" href="#goto"><span>Route No.6</span></button>
+        <button style="padding-right:24px;" id="bb7" href="#goto"><span>Route No.7</span></button>
+        <button id="bb8" href="#goto"><span>Route No.8</span></button>
+        <button id="bb9" href="#goto"><span>Route No.9</span></button>
+        <button style="padding-left:18px;" id="bb10" href="#goto"><span>Route No.10</span></button>
+        <button style="padding-right:22px;" id="bb11" href="#goto"><span>Route No.11</span></button>
+        <button style="padding-right:18px;" id="bb12" href="#goto"><span>Route No.12</span></button>
+      </div>
+      <div class="routeimg">
+        <img width="255" height="900" src="https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route1.jpg">
+        <!-- <img id="i1" src="route1.jpg" width="200" height="200"class="attachment-large size-large" alt="" srcset="https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route1.jpg 255w, https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route1-90x300.jpg 90w" sizes="(max-width: 255px) 100vw, 255px>
+      </img> -->
+      </div>
     </div>
-    <div class="routeimg">
-      <img width="255" height="900" src="https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route1.jpg">
-      <!-- <img id="i1" src="route1.jpg" width="200" height="200"class="attachment-large size-large" alt="" srcset="https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route1.jpg 255w, https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route1-90x300.jpg 90w" sizes="(max-width: 255px) 100vw, 255px>
-    </img> -->
-    </div>
-  </div>
-  <script>
-
-    document.getElementById("bb1").addEventListener('click', function () {
-      document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580; document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route1.jpg";
-
-      document.querySelector('.routeimg img').width = "312";
-      document.querySelector('.routeimg img').height = "805"; document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580;
-    });
-    document.getElementById("bb2").addEventListener('click', function () {
-      document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route2.jpg";
-      document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580;
-      document.querySelector('.routeimg img').width = "316";
-      document.querySelector('.routeimg img').height = "795";
-    });
-
-    document.getElementById("bb3").addEventListener('click', function () {
-      document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route3.jpg";
-      document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580;
-      document.querySelector('.routeimg img').width = "312";
-      document.querySelector('.routeimg img').height = "725";
-    });
-
-
-    document.getElementById("bb4").addEventListener('click', function () {
-      document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route4.jpg";
-      document.querySelector('.routeimg img').width = "285";
-      document.querySelector('.routeimg img').height = "377"; document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580;
-
-
-    });
-
-    document.getElementById("bb5").addEventListener('click', function () {
-      document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route5.jpg";
-      document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580;
-
-      document.querySelector('.routeimg img').width = "313";
-      document.querySelector('.routeimg img').height = "770";
-    });
-
-    document.getElementById("bb6").addEventListener('click', function () {
-      document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route6.jpg";
-      document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580;
-      document.querySelector('.routeimg img').width = "290";
-      document.querySelector('.routeimg img').height = "695";
-    });
-
-    document.getElementById("bb7").addEventListener('click', function () {
-      document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route7.jpg";
-      document.querySelector('.routeimg img').width = "290";
-      document.querySelector('.routeimg img').height = "686"; document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580;
-
-    });
-
-    document.getElementById("bb8").addEventListener('click', function () {
-      document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route8.jpg";
-      document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580;
-      document.querySelector('.routeimg img').width = "295";
-      document.querySelector('.routeimg img').height = "847";
-    });
-
-    document.getElementById("bb9").addEventListener('click', function () {
-      document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route9.jpg";
-      document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580;
-      document.querySelector('.routeimg img').width = "285";
-      document.querySelector('.routeimg img').height = "595";
-    });
-
-    document.getElementById("bb10").addEventListener('click', function () {
-      document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route10.jpg";
-      document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580;
-      document.querySelector('.routeimg img').width = "287";
-      document.querySelector('.routeimg img').height = "600";
-    });
-
-    document.getElementById("bb11").addEventListener('click', function () {
-      document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route11.jpg";
-      document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580;
-      document.querySelector('.routeimg img').width = "278";
-      document.querySelector('.routeimg img').height = "657";
-    });
-
-    document.getElementById("bb12").addEventListener('click', function () {
-      document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route12.jpg";
-      document.body.scrollTop = 1580;
-      document.documentElement.scrollTop = 1580;
-      document.querySelector('.routeimg img').width = "261";
-      document.querySelector('.routeimg img').height = "405";
-    });
-
-
-
-
-  </script>
-</body>
-
-</html>
+    <script>
+  
+      document.getElementById("bb1").addEventListener('click', function () {
+        document.body.scrollTop = 1780;// For Safari
+        document.documentElement.scrollTop = 1780; // For Chrome, Firefox, IE and Opera
+         document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route1.jpg";
+  
+        document.querySelector('.routeimg img').width = "312";
+        document.querySelector('.routeimg img').height = "805"; document.body.scrollTop = 1780;
+        document.documentElement.scrollTop = 1780;
+      });
+      document.getElementById("bb2").addEventListener('click', function () {
+        document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route2.jpg";
+        document.body.scrollTop = 1780;
+        document.documentElement.scrollTop = 1780;
+        document.querySelector('.routeimg img').width = "316";
+        document.querySelector('.routeimg img').height = "795";
+      });
+  
+      document.getElementById("bb3").addEventListener('click', function () {
+        document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route3.jpg";
+        document.body.scrollTop = 1780;
+        document.documentElement.scrollTop = 1780;
+        document.querySelector('.routeimg img').width = "312";
+        document.querySelector('.routeimg img').height = "725";
+      });
+  
+  
+      document.getElementById("bb4").addEventListener('click', function () {
+        document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route4.jpg";
+        document.querySelector('.routeimg img').width = "285";
+        document.querySelector('.routeimg img').height = "377"; document.body.scrollTop = 1780;
+        document.documentElement.scrollTop = 1780;
+  
+  
+      });
+  
+      document.getElementById("bb5").addEventListener('click', function () {
+        document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route5.jpg";
+        document.body.scrollTop = 1780;
+        document.documentElement.scrollTop = 1780;
+  
+        document.querySelector('.routeimg img').width = "313";
+        document.querySelector('.routeimg img').height = "770";
+      });
+  
+      document.getElementById("bb6").addEventListener('click', function () {
+        document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route6.jpg";
+        document.body.scrollTop = 1780;
+        document.documentElement.scrollTop = 1780;
+        document.querySelector('.routeimg img').width = "290";
+        document.querySelector('.routeimg img').height = "695";
+      });
+  
+      document.getElementById("bb7").addEventListener('click', function () {
+        document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route7.jpg";
+        document.querySelector('.routeimg img').width = "290";
+        document.querySelector('.routeimg img').height = "686"; document.body.scrollTop = 1780;
+        document.documentElement.scrollTop = 1780;
+  
+      });
+  
+      document.getElementById("bb8").addEventListener('click', function () {
+        document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route8.jpg";
+        document.body.scrollTop = 1780;
+        document.documentElement.scrollTop = 1780;
+        document.querySelector('.routeimg img').width = "295";
+        document.querySelector('.routeimg img').height = "847";
+      });
+  
+      document.getElementById("bb9").addEventListener('click', function () {
+        document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route9.jpg";
+        document.body.scrollTop = 1780;
+        document.documentElement.scrollTop = 1780;
+        document.querySelector('.routeimg img').width = "285";
+        document.querySelector('.routeimg img').height = "595";
+      });
+  
+      document.getElementById("bb10").addEventListener('click', function () {
+        document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route10.jpg";
+        document.body.scrollTop = 1780;
+        document.documentElement.scrollTop = 1780;
+        document.querySelector('.routeimg img').width = "287";
+        document.querySelector('.routeimg img').height = "600";
+      });
+  
+      document.getElementById("bb11").addEventListener('click', function () {
+        document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route11.jpg";
+        document.body.scrollTop = 1780;
+        document.documentElement.scrollTop = 1780;
+        document.querySelector('.routeimg img').width = "278";
+        document.querySelector('.routeimg img').height = "657";
+      });
+  
+      document.getElementById("bb12").addEventListener('click', function () {
+        document.querySelector('.routeimg img').src = "https://usoneinfotech.com/wp/wp-content/uploads/2019/11/route12.jpg";
+        document.body.scrollTop = 1780;
+        document.documentElement.scrollTop = 1780;
+        document.querySelector('.routeimg img').width = "261";
+        document.querySelector('.routeimg img').height = "405";
+      });
+  
+  
+  
+  
+    </script>
+  </body>
+  
+  </html>
+</p>
