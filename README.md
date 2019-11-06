@@ -22,10 +22,10 @@ In this we have another intresting thing to learn:--<br>
 2. Or else by using javascript code:<br>
   document.body.scrollTop = <b>number</b>;// For Safari<br>
  
-        document.documentElement.scrollTop = <b>number</b>;      /*For Chrome, Firefox, IE and Opera */<br>
-        The number is based on the height of the page it may vary fot site to site <br>
+document.documentElement.scrollTop = <b>number</b>;      /*For Chrome, Firefox, IE and Opera */<br>
+The number is based on the height of the page it may vary fot site to site <br>
 
-      best reference would be<a href="https://www.w3schools.com/howto/howto_js_scroll_to_top.asp"><br>
+best reference would be<a href="https://www.w3schools.com/howto/howto_js_scroll_to_top.asp"> --CLICK HERE--</a><br>
 
 
  3. Media queries <b>"@media( max-width: 568px)" or "@media( min-width: 568px)"</b>    --useful to make the page responsive<br>
