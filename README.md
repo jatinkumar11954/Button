@@ -40,7 +40,7 @@ best reference would be<a href="https://www.w3schools.com/howto/howto_js_scroll_
    then should use<br>
    <b>"@media( min-width: 568px)"</b> min-width<br>
       
-    <b> Another rule is you have to write the media query after the real css class</b><br>
+<b> Another rule is you have to write the media query after the real css class</b><br>
       for example<br>
       .content {<br>
         display: inline-block;<br>
